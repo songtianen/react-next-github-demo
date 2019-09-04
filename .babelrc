@@ -1,0 +1,8 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    ["import", { "libraryName": "antd" }],
+    ["styled-components", { "ssr": true }] // 预编译css
+  ]
+  // 配置style：css使用webpack mini-css-extract-plugin 有bug
+}
